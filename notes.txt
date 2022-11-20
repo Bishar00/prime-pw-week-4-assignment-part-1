@@ -1,0 +1,89 @@
+// let string = "";
+// let stringOne = ["", ""]
+
+// function getFullName(firstName, lastName) {
+// const fullName = firstName + " " + lastName
+// console.log(fullName)
+// return fullName
+// }
+// let JoeFullName = getFullName('joe', 'crazy');
+// console.log(HamzaFullName)
+
+// let bishFullName = getFullName('Bishar', 'Yusuf');
+// console.log(bishFullName)
+// const mohamedFullNme = getFullName('Mohamed', "Mohamed")
+// console.log(mohamedFullNme)
+
+// function addOnePlusTwo (one, two) {
+//   return one + two
+// }
+
+// let total = addOnePlusTwo(1, 2)
+// console.log(total)
+
+// function arrayFunc (number) {
+//   return [number]
+// }
+
+// console.log(arrayFunc(total))
+
+
+
+//Why we need a console.log(function(arg1, arg2))
+
+function minus(arg1, arg2) { //function declaration
+    //return something - something 
+    return arg1 - arg2
+}
+
+minus(3, 2)
+
+//two options to display the results 
+
+let result = minus(3, 2)
+
+console.log(result) // display to the console
+
+or
+
+console.log(minus(3, 2)) // display to the console
+
+
+
+//Notes, when calling a function 
+
+call it by the name followed by ()
+
+minus(3, 2) // this is calling the function 
+
+
+
+//Note: never declare or return something after you have already returned somthing
+
+
+//Arrays iterate 
+
+//1st method 
+
+for(let index = 0; index < array.ength; index++) {
+    console.log(index) //accessing index of an array 
+    console.log(array[index]) // accessing the actual value 
+    if(array[index] === value) {
+        return true
+    } 
+}
+
+
+//2nd  method
+
+
+for(let arr of array){
+    if(arr === value) {
+        console.log(array[arr]) /// index
+        console.log(arr) /// value
+        return true
+    }
+
+    return false
+}
+
