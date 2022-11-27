@@ -67,7 +67,7 @@ function getLast( array ) {
 
  return array[array.length -1]
 }
-console.log(getLast[5]);
+console.log(getLast([5]));
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
